@@ -356,4 +356,8 @@ ul li:hover .dropdown-content {
     .translation-type {
         width: 100%; /* Full width on mobile */
     }
+    .logo {
+        max-width: 80px;
+        margin-right: 20px;
+    }
 }
