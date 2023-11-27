@@ -137,7 +137,7 @@ ul li:hover .dropdown-content {
     font-weight: 1000;
     padding: 10px;
     margin-top: 0px;
-    color: rgb(65, 235, 235);
+    transition: color 1s ease;
 }
 
 
@@ -169,6 +169,138 @@ ul li:hover .dropdown-content {
 #quote{
     background: red;
 }
+
+
+
+
+.interpretation-section {
+    background-color: rgb(3, 3, 49);
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.interpretation-types {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.interpretation-type {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.interpretation-type img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.interpretation-type h4 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+
+
+/* Style for interpretation descriptions */
+.interpretation-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555; /* Adjust color as needed */
+    margin-bottom: 20px;
+}
+
+/* Specific styles for each type of interpretation description */
+.simultaneous-description {
+    font-style: italic;
+    color: #4CAF50; /* Green color for simultaneous interpretation description */
+}
+
+.consecutive-description {
+    font-weight: bold;
+    color: #FFC107; /* Yellow color for consecutive interpretation description */
+}
+
+.conference-description {
+    color: #2196F3; /* Blue color for conference interpretation description */
+}
+
+/* Add any additional styles or animations as desired */
+
+
+
+
+
+
+.translation-section {
+    background-color: rgb(49, 3, 3);
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 2em;
+}
+
+.section-header p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.translation-types {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.translation-type {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.translation-type img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.translation-type h4 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.translation-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.document-translation-description {
+    font-style: italic;
+    color: #4CAF50; /* Green color for document translation description */
+}
+
+.legal-translation-description {
+    font-weight: bold;
+    color: #FFC107; /* Yellow color for legal translation description */
+}
+
+.medical-translation-description {
+    color: #2196F3; /* Blue color for medical translation description */
+}
+
+
+
+
 
 
 @media (max-width: 1200px) {
@@ -213,5 +345,13 @@ ul li:hover .dropdown-content {
 
     #check:checked ~ ul {
         right: 0;
+    }
+
+    .interpretation-type {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .translation-type {
+        width: 100%; /* Full width on mobile */
     }
 }

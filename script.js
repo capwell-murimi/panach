@@ -2,11 +2,15 @@ const words = ['Translation Services', 'Interpretation Services', 'Language Solu
         let currentWordIndex = 0;
 
         function animateWords() {
-            document.getElementById('wordAnimation').innerHTML = words[currentWordIndex];
+            const wordAnimation = document.getElementById('wordAnimation');
+            wordAnimation.innerHTML = words[currentWordIndex];
+            // Generate a random color in hex format
+            const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+            wordAnimation.style.color = randomColor;
+
             currentWordIndex = (currentWordIndex + 1) % words.length;
 
-            setTimeout(animateWords, 1000); // Change word every 3 seconds (adjust as needed)
+            setTimeout(animateWords, 1000);
         }
 
-        // Start the word animation when the page loads
         document.addEventListener('DOMContentLoaded', animateWords);
