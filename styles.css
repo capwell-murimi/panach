@@ -303,6 +303,148 @@ ul li:hover .dropdown-content {
 
 
 
+/* Additional styles for each service */
+.our-services-section {
+    background-color: rgb(3, 3, 49);
+    padding: 80px 20px;
+    color: #777474;
+    text-align: center;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.service h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.service p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 20px 20px;
+}
+
+/* Add more styling as needed */
+
+
+
+
+.get-quote-section {
+    background-color: #333;
+    padding: 80px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.quote-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quote-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.quote-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* ... (Previous styles) */
+/* ... (Previous styles) */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(circle, #fff, #f1f1f1); /* Radial gradient background */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ffcc00; /* Yellow border */
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff5e62, #fb8c00);
+}
+
+
+
+
+footer {
+    background-color: rgb(3, 3, 49);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #ddd;
+}
+
+
 
 
 @media (max-width: 1200px) {
