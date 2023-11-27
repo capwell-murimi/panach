@@ -1,4 +1,12 @@
-const words = ['Translation Services', 'Interpretation Services', 'Language Solutions'];
+const words = [
+    'Onsite Simultaneous Interpretation',
+    'Remote Simultaneous Translation',
+    'Hybrid Interpretation',
+    'Translation',
+    'Voice Overs',
+    'Transcription'
+  ];
+  
         let currentWordIndex = 0;
 
         function animateWords() {
