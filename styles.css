@@ -215,12 +215,12 @@ ul li:hover .dropdown-content {
 /* Specific styles for each type of interpretation description */
 .simultaneous-description {
     font-weight: bold;
-    color: #4CAF50; /* Green color for simultaneous interpretation description */
+    color: #2196F3; /* Green color for simultaneous interpretation description */
 }
 
 .consecutive-description {
     font-weight: bold;
-    color: #FFC107; /* Yellow color for consecutive interpretation description */
+    color: #2196F3; /* Yellow color for consecutive interpretation description */
 }
 
 .conference-description {
@@ -287,12 +287,12 @@ ul li:hover .dropdown-content {
 
 .document-translation-description {
     font-weight: bold;
-    color: #4CAF50; /* Green color for document translation description */
+    color: #2196F3; /* Green color for document translation description */
 }
 
 .legal-translation-description {
     font-weight: bold;
-    color: #FFC107; /* Yellow color for legal translation description */
+    color: #2196F3; /* Yellow color for legal translation description */
 }
 
 .medical-translation-description {
