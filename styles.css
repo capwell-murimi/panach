@@ -393,7 +393,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(7, 7, 71); /* Radial gradient background */
+    background: rgb(3, 3, 138); /* Radial gradient background */
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -420,8 +420,8 @@ textarea {
 }
 
 button {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    color: #fff;
+    background: linear-gradient(to right, #380e03, #110b06);
+    color: #881212;
     padding: 15px 30px;
     font-size: 1.2em;
     border: none;
@@ -431,7 +431,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to right, #ff5e62, #fb8c00);
+    background: linear-gradient(to right, #da080c, rgb(226, 9, 9));
 }
 
 
