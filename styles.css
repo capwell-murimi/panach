@@ -364,7 +364,7 @@ ul li:hover .dropdown-content {
 
 
 .get-quote-section {
-    background-color: #333;
+    background-color: rgb(3, 3, 49);
     padding: 80px 20px;
     color: #fff;
     text-align: center;
@@ -393,7 +393,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: radial-gradient(circle, #fff, #f1f1f1); /* Radial gradient background */
+    background: rgb(7, 7, 71); /* Radial gradient background */
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
