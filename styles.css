@@ -468,6 +468,66 @@ footer {
 
 
 
+
+.language-specialization {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.language-specialization img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language-specialization h3 {
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.language-specialization p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+.language-specialization:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(52, 152, 219, 0.6), rgba(52, 152, 219, 0));
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.language-specialization:hover {
+    transform: scale(1.05);
+}
+
+.language-specialization:hover:before {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 1200px) {
     .checkbtn {
         display: block;
@@ -557,6 +617,13 @@ footer {
         padding: 10px;
         margin-top: 0px;
         transition: color 1s ease;
+    }
+
+    .service p {
+        font-size: 1em;
+        line-height: 1.6;
+        color: #555;
+        margin: 0 20px 20px;
     }
     
     
