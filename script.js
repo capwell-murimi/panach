@@ -37,9 +37,18 @@ document.addEventListener('DOMContentLoaded', animateWords);
 
 document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll('nav a');
+    const menuToggle = document.getElementById('check');
+    const menu = document.querySelector('nav ul');
   
     navLinks.forEach(link => {
       link.addEventListener('click', smoothScroll);
+    });
+  
+    document.addEventListener('click', function (e) {
+      // Close the menu if the click is outside of the menu and toggle button
+      if (!menu.contains(e.target) && e.target !== menuToggle) {
+        menuToggle.checked = false;
+      }
     });
   
     function smoothScroll(e) {
@@ -51,6 +60,9 @@ document.addEventListener("DOMContentLoaded", function () {
         top: targetElement.offsetTop - 50, // Adjust for header height
         behavior: 'smooth'
       });
+  
+      // Close the menu after clicking a link
+      menuToggle.checked = false;
     }
   });
   
