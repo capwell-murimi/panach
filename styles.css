@@ -16,6 +16,7 @@ body {
     background-color: rgb(3, 3, 49);
     padding: 15px;
     z-index: 1000;
+    scroll-behavior: smooth;
 }
 
 .logo {
@@ -206,7 +207,9 @@ ul li:hover .dropdown-content {
 
 
 
-
+nav{
+    scroll-behavior: smooth;
+}
 
 
 
