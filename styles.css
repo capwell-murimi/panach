@@ -145,9 +145,9 @@ ul li:hover .dropdown-content {
 #about-us {
     background-color: rgb(3, 3, 49);
     padding: 80px 20px;
-    color: #000000;
+    color: #7e6a6a;
     text-align: center;
-    background: url(images/interpreter-microphone.jpg) no-repeat; 
+    background:  rgb(3, 3, 49); 
     background-size: cover;
 }
 

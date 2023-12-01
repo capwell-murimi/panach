@@ -4,12 +4,13 @@ const words = [
     'Hybrid Interpretation',
     'Translation',
     'Voice Overs',
-    'Transcription'
+    'Transcription',
+    'Subtitling'
 ];
 
 const colors = [
     '#3498db', // Blue
-    '#f39c12', // Orange
+    '#f39c12', // Orange+--+
     '#2ecc71', // Green
     '#f39c12', // Orange
     '#2ecc71', // green
