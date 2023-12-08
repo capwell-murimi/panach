@@ -141,7 +141,11 @@ ul li:hover .dropdown-content {
     transition: color 1s ease;
 }
 
-
+.contacts a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
 
 #about-us {
     background-color: rgb(3, 3, 49);
