@@ -311,7 +311,10 @@
             <h2>Get a Quote</h2>
             <p>Interested in our services? Fill out the form below, and we'll get back to you.</p>
             
-            <form id="quote-form" action="https://formsubmit.co/pananchconsult@gmail.com" method="POST">
+           <!-- <form id="quote-form" action="https://formsubmit.co/pananchconsult@gmail.com" method="POST">-->
+            <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="ad8e17db-f914-4310-ab06-6784d5928b5b">
                 <input placeholder="Name" type="text" id="name" name="name" required>
             
                 <input placeholder="Email" type="email" id="email" name="email" required>
